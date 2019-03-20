@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 170076734}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -56839,7 +56839,7 @@ PrefabInstance:
     - target: {fileID: 2462239125950766876, guid: 17a251fa17055ff4e9edbdbed81479d6,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 200
+      value: 400
       objectReference: {fileID: 0}
     - target: {fileID: 2462239125958101900, guid: 17a251fa17055ff4e9edbdbed81479d6,
         type: 3}
@@ -56949,23 +56949,38 @@ PrefabInstance:
     - target: {fileID: 2462239126866103974, guid: 17a251fa17055ff4e9edbdbed81479d6,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2462239127057055973, guid: 17a251fa17055ff4e9edbdbed81479d6,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2462239127785928665, guid: 17a251fa17055ff4e9edbdbed81479d6,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2462239126835580948, guid: 17a251fa17055ff4e9edbdbed81479d6,
         type: 3}
       propertyPath: miniMap
       value: 
       objectReference: {fileID: 326770305}
+    - target: {fileID: 2462239126817144575, guid: 17a251fa17055ff4e9edbdbed81479d6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2462239127260889392, guid: 17a251fa17055ff4e9edbdbed81479d6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2462239127166680045, guid: 17a251fa17055ff4e9edbdbed81479d6,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 17a251fa17055ff4e9edbdbed81479d6, type: 3}
 --- !u!43 &1449352245
