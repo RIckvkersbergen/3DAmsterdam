@@ -8,9 +8,9 @@ public class beweging : MonoBehaviour
 {
     public Camera cam;
 
-    private const float zoomSpeed = 0.3f;
+    private const float zoomSpeed = 0.5f;
     private const float maxZoomOut = 100f;
-    private const float maxZoomIn = 1f;
+    private const float maxZoomIn = 47f;
     private const float rotationSpeed = 1f;
     private const float dragSpeed = 4f;
     private const float maxRotate = 50f;
@@ -147,6 +147,9 @@ public class beweging : MonoBehaviour
         zoomDirection = Vector3.Normalize(zoomPoint - cam.transform.position);
 
         zoom = zoomDirection * zoomDistance * scroll * zoomSpeed;
+
+        Debug.Log(maxZoomOut);
+
 
         // er kan niet verder worden uitgezoomd dan de maximale range.
         if (cam.transform.position.y > maxZoomOut)

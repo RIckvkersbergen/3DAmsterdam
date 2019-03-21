@@ -11,7 +11,7 @@ public class GodView : MonoBehaviour
     public GameObject FPSCam, godCam;
     public Camera cam;
 
-    private float stopHeight = 20f;
+    private float stopHeight = 60f;
     private float lerpSpeed = 2f;
 
     private void Update()

@@ -5,9 +5,9 @@ using UnityEngine.UI;
 
 public class ZoomButtons : MonoBehaviour
 {
-    private float zoomSpeed = 0.5f;
+    private float zoomSpeed = 0.3f;
     private const float maxZoomOut = 100f;
-    private const float maxZoomIn = 1f;
+    private const float maxZoomIn = 47f;
 
     private Vector3 zoom;
     private Vector3 maxZoomPosition;

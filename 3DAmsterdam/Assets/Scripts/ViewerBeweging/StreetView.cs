@@ -15,12 +15,8 @@ public class StreetView : MonoBehaviour
     public GameObject FPSCam;
     public Camera cam;
 
-    private float stopHeight = 1f;
+    private float stopHeight = 47f;
     private float lerpSpeed = 3f;
-
-    private void Start()
-    {
-    }
 
     private void LateUpdate()
     {
